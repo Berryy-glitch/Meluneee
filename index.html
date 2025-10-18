@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="container">
+        <div class="music-player">
+            <div class="tittle">
+              <p>Daun Jatuh - Sekedar Mengagumi</p>
+            </div>
+            <div class="thumbnail">
+              <img src="Song/thumbnail1.jpeg">
+            </div>
+
+            <audio id="song">
+              <source src="Song/song1.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" min="0" max="100" value="50" id="progress">
+
+          <nav>
+            <div class="player">
+              <div class="play">
+                <img onclick="playPause()" src="Song/s.away.png" class="playy" id="ctrlIcon">
+                <img onclick="prevSong()" src="Song/rewind.png" class="rewind">
+                <img onclick="nextSong()" src="Song/nexto.png" class="next">
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <script src="script .js"></script>
+
+  </body>
+</html>
