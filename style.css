@@ -159,11 +159,11 @@ input[type="range"]::-webkit-slider-thumb {
   }
   
   .play {
-    width: 70%;
+    width: 80%;
   }
 
   .thumbnail img {
-    width: 85%;
+    width: 45%;
     height: auto;
   }
 
@@ -190,6 +190,7 @@ input[type="range"]::-webkit-slider-thumb {
     max-width: 100%;
     height: auto;
   }
+
 
 
 
