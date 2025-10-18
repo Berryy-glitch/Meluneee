@@ -155,11 +155,10 @@ input[type="range"]::-webkit-slider-thumb {
 
   .player {
     align-items: center;
-    gap: 10px;
-    width: 85%;
+    width: 80%;
   }
   .play {
-    width: 85%;
+    width: 70%;
 
   .thumbnail img {
     width: 85%;
@@ -191,6 +190,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 
 
 
