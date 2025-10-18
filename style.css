@@ -167,11 +167,6 @@ input[type="range"]::-webkit-slider-thumb {
     height: auto;
   }
 
-  .play img .rewind .next {
-    width: 85%;
-    flex-direction: row;
-    justify-content: space-around;
-  }
 
   input[type="range"] {
     width: 80%;
@@ -187,6 +182,7 @@ input[type="range"]::-webkit-slider-thumb {
 .thumbnail, .controls {
   border-radius: 20px;
 }
+
 
 
 
