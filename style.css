@@ -164,7 +164,6 @@ input[type="range"]::-webkit-slider-thumb {
 
   .thumbnail img {
     width: 85%;
-    max-width: 280px;
     height: auto;
   }
 
@@ -191,6 +190,7 @@ input[type="range"]::-webkit-slider-thumb {
     max-width: 100%;
     height: auto;
   }
+
 
 
 
