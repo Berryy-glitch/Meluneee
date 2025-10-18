@@ -64,7 +64,7 @@
 }
 .play{
   position: absolute;
-  width: 100%;
+  width: 335px;
   height: 136px;
   background: #DDF2FD;
   border-radius: 50px;
@@ -191,6 +191,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 
 
 
