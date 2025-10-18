@@ -136,7 +136,7 @@ input[type="range"]::-webkit-slider-thumb {
   appearance: none;
   width: 90px;
   height: 90px;
-  background: url("Song1/totoroo.png") no-repeat center;
+  background: src("Song1/totoroo.png") no-repeat center;
   background-size: contain;
   margin-top: -39px;
 }
@@ -145,3 +145,4 @@ input[type="range"]::-webkit-slider-thumb {
   transition: opacity 0.5s ease;
 
 }
+
