@@ -147,6 +147,45 @@ input[type="range"]::-webkit-slider-thumb {
 
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .player {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .thumbnail img {
+    width: 85%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  .controls {
+    width: 85%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  input[type="range"] {
+    width: 80%;
+    background-size: contain;
+  }
+
+  .tittle {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.thumbnail, .controls {
+  border-radius: 20px;
+}
 
 
 
