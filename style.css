@@ -54,7 +54,6 @@
 .player {
   position: absolute;
   width: 90%;
-  max-width: 380px;
   height: 147px;
   background: #9BBEC8;
   border-radius: 50px;
@@ -192,6 +191,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 
 
 
