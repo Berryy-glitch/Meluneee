@@ -166,12 +166,6 @@ input[type="range"]::-webkit-slider-thumb {
     height: auto;
   }
 
-  .play img {
-    width: 85%;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
   input[type="range"] {
     width: 80%;
     background-size: contain;
@@ -191,6 +185,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 
 
 
