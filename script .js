@@ -15,6 +15,11 @@ let songs = [
     src: "Song1/song5.mp3",
     thumbnail: "Thumbnail/thumbnail5.jpeg"
   },
+   {
+    title: "The 1975 - About You",
+    src: "Song3/song13.mp3",
+    thumbnail: "Thumbnail/thumbnail13.jpeg"
+  },
   {
     title: "&Team - Wonderful World",
     src: "Song1/song2.mp3",
@@ -41,9 +46,19 @@ let songs = [
     thumbnail: "Thumbnail/thumbnail6.png"
   },
   {
+    title: "RADWIMPS - Sparkle ",
+    src: "Song3/song12.mp3",
+    thumbnail: "Thumbnail/thumbnail2.png"
+  },
+  {
     title: "Lany - you!",
     src: "Song2/song7.mp3",
     thumbnail: "Thumbnail/thumbnail7.jpeg"
+  },
+   {
+    title: "Colde - Star",
+    src: "Song3/song11.mp3",
+    thumbnail: "Thumbnail/thumbnail11.jpeg"
   },
   {
     title: "Denise Julia - NVMD",
@@ -118,5 +133,6 @@ song.addEventListener("pause", () => {
 });
 
 song.addEventListener("ended", nextSong);
+
 
 loadSong(currentSong);
