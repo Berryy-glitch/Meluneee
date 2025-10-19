@@ -6,9 +6,9 @@ let thumbnail = document.querySelector(".thumbnail img");
 
 let songs = [
   {
-    title: "Daun Jatuh - Sekedar Mengagumi",
-    src: "Song1/song1.mp3",
-    thumbnail: "Thumbnail/thumbnail1.jpeg"
+    title: "&Team - Wonderful World",
+    src: "Song1/song2.mp3",
+    thumbnail: "Thumbnail/thumbnail2.jpeg"
   },
   {
     title: "Keenan Te - Scars",
@@ -21,9 +21,9 @@ let songs = [
     thumbnail: "Thumbnail/thumbnail13.jpeg"
   },
   {
-    title: "&Team - Wonderful World",
-    src: "Song1/song2.mp3",
-    thumbnail: "Thumbnail/thumbnail2.jpeg"
+    title: "Daun Jatuh - Sekedar Mengagumi",
+    src: "Song1/song1.mp3",
+    thumbnail: "Thumbnail/thumbnail1.jpeg"
   },
   {
     title: "Rufus Weinwright - Another Believer ",
@@ -136,5 +136,6 @@ song.addEventListener("ended", nextSong);
 
 
 loadSong(currentSong);
+
 
 
