@@ -48,7 +48,7 @@ let songs = [
   {
     title: "RADWIMPS - Sparkle ",
     src: "Song3/song12.mp3",
-    thumbnail: "Thumbnail/thumbnail2.png"
+    thumbnail: "Thumbnail/thumbnail12.png"
   },
   {
     title: "Lany - you!",
@@ -136,3 +136,4 @@ song.addEventListener("ended", nextSong);
 
 
 loadSong(currentSong);
+
